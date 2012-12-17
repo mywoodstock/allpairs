@@ -1,7 +1,5 @@
 /***
- *  $Id$
- **
- *  File: example-cuda.cu
+ *  File: pairwise-unsliced.cu
  *  Created: Apr 17, 2010
  *
  *  Author: Abhinav Sarje <abhinav.sarje@gmail.com>
