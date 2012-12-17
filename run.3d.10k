@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for c in `seq 1 32`
+do
+	for r in `seq 1 32`
+	do
+		for s in `seq 1 32`
+		do
+			echo "pairwise 10000 3 2 input/3d.10k.dat hoho 0 $c $r $s 3"
+			./pairwise 10000 3 2 input/3d.10k.dat hoho 0 $c $r $s 3
+		done
+	done
+done
