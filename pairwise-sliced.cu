@@ -1,10 +1,10 @@
 /***
- *  $Id$
- **
  *  File: pairwise-sliced.cu
  *  Created: Apr 17, 2010
  *
  *  Author: Abhinav Sarje <abhinav.sarje@gmail.com>
+ *
+ *  Notes: Uses square block, subtiling and slicing.
  */
 
 #include <iostream>

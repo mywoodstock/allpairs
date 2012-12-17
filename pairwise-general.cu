@@ -3,6 +3,8 @@
  *  Created: Apr 17, 2010
  *
  *  Author: Abhinav Sarje <abhinav.sarje@gmail.com>
+ *
+ *  Notes: Simple implementation. No sliding, subtiling.
  */
 
 #include <iostream>

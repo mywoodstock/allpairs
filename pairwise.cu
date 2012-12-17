@@ -3,6 +3,9 @@
  *  Created: Apr 17, 2010
  *
  *  Author: Abhinav Sarje <abhinav.sarje@gmail.com>
+ *
+ *  Notes: uses slicing, subtiling (and shared memory).
+ *  Implements matmul as well.
  */
 
 #include <iostream>
