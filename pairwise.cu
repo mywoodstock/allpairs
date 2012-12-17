@@ -394,7 +394,7 @@ int main(int argc, char* argv[]) {
 	*/
 
     bool res = false;
-    if (sym == false) res = store_D_nonsym(argv[5], D, n);
+/*    if (sym == false) res = store_D_nonsym(argv[5], D, n);
     else res = store_D_sym(argv[5], D, n);
 
     if (res == false) {
@@ -405,7 +405,7 @@ int main(int argc, char* argv[]) {
 		cudaFreeHost(M);
         return -1;
     } // if
-
+*/
 	// free the events
 	cudaEventDestroy(start);
 	cudaEventDestroy(stop);
